@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="draw.helper.CanvasHelper_checkIfAllShapesAreInsideCanvas_should" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-01-17T08:35:30" hostname="pc0164.puhh.local" time="0.003">
-  <properties/>
-  <testcase name="throw_runtime_exception_if_at_least_one_shape_is_outside_of_canvas" classname="draw.helper.CanvasHelper_checkIfAllShapesAreInsideCanvas_should" time="0.003"/>
-  <testcase name="not_throw_error_if_all_shapes_are_inside_of_canvas" classname="draw.helper.CanvasHelper_checkIfAllShapesAreInsideCanvas_should" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

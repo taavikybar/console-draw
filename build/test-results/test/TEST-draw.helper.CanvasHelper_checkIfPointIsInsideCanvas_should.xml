@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="draw.helper.CanvasHelper_checkIfPointIsInsideCanvas_should" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-01-17T08:35:31" hostname="pc0164.puhh.local" time="0.001">
-  <properties/>
-  <testcase name="not_throw_error_if_point_is_inside_of_canvas" classname="draw.helper.CanvasHelper_checkIfPointIsInsideCanvas_should" time="0.0"/>
-  <testcase name="throw_runtime_exception_if_point_is_outside_of_canvas([11, 1] -&gt;[] ) [0]" classname="draw.helper.CanvasHelper_checkIfPointIsInsideCanvas_should" time="0.0"/>
-  <testcase name="throw_runtime_exception_if_point_is_outside_of_canvas([1, 11] -&gt;[] ) [1]" classname="draw.helper.CanvasHelper_checkIfPointIsInsideCanvas_should" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
