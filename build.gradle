@@ -1,31 +1,33 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:4.0.3'
+    }
+}
+
 plugins {
     id 'io.franzbecker.gradle-lombok' version '1.14'
+    id 'com.github.johnrengelman.shadow' version '4.0.3'
     id 'java'
     id 'application'
 }
 
+apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'java'
 apply plugin: 'idea'
 
 jar {
     manifest {
         attributes 'Main-Class': 'draw.ConsoleDrawer'
+        attributes "Class-Path": configurations.compile.collect { it.absolutePath }.join(" ")
     }
 
     from {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
 
-    destinationDir = file("dist")
-}
-
-task fatJar(type: Jar) {
-    manifest {
-        attributes 'Main-Class': 'draw.ConsoleDrawer'
-    }
-    baseName = 'draw.console.application'
-    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
-    with jar
     destinationDir = file("dist")
 }
 
@@ -41,6 +43,13 @@ targetCompatibility = '1.8'
 lombok {
     version = '1.18.4'
     sha256 = ''
+}
+
+shadowJar {
+    baseName = 'console-draw-fat'
+    classifier = null
+    version = null
+    destinationDir = file("dist")
 }
 
 dependencies {
