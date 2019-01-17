@@ -1,0 +1,55 @@
+plugins {
+    id 'io.franzbecker.gradle-lombok' version '1.14'
+    id 'java'
+    id 'application'
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'draw.ConsoleDrawer'
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+
+    destinationDir = file("dist")
+}
+
+task fatJar(type: Jar) {
+    manifest {
+        attributes 'Main-Class': 'draw.ConsoleDrawer'
+    }
+    baseName = 'draw.console.application'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+    destinationDir = file("dist")
+}
+
+mainClassName = "draw.ConsoleDrawer"
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+lombok {
+    version = '1.18.4'
+    sha256 = ''
+}
+
+dependencies {
+    implementation 'org.projectlombok:lombok:1.18.2'
+    implementation 'org.beryx:text-io:3.3.0'
+    implementation 'org.slf4j:slf4j-nop:1.7.25'
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.assertj:assertj-core:3.10.0'
+    testImplementation 'pl.pragmatists:JUnitParams:1.1.1'
+    testImplementation 'org.mockito:mockito-all:1.10.19'
+}
+

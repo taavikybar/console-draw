@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-01-17T08:35:31" hostname="pc0164.puhh.local" time="0.003">
+  <properties/>
+  <testcase name="not_throw_runtime_exception_if_two_shapes_are_not_overlapping(Shape[startX=11, endX=12, startY=11, endY=12, isHorizontal=false, isRectangle=false]) [0]" classname="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" time="0.001"/>
+  <testcase name="not_throw_runtime_exception_if_two_shapes_are_not_overlapping(Shape[startX=1, endX=1, startY=1, endY=5, isHorizontal=false, isRectangle=false]) [1]" classname="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_two_shapes_are_not_overlapping(Shape[startX=13, endX=20, startY=14, endY=20, isHorizontal=false, isRectangle=false]) [2]" classname="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" time="0.001"/>
+  <testcase name="throw_runtime_exception_if_two_shapes_are_not_overlapping(Shape[startX=1, endX=3, startY=1, endY=3, isHorizontal=false, isRectangle=false]) [0]" classname="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_two_shapes_are_not_overlapping(Shape[startX=4, endX=12, startY=2, endY=12, isHorizontal=false, isRectangle=false]) [1]" classname="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_two_shapes_are_not_overlapping(Shape[startX=4, endX=8, startY=2, endY=8, isHorizontal=false, isRectangle=false]) [2]" classname="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_two_shapes_are_not_overlapping(Shape[startX=2, endX=3, startY=2, endY=3, isHorizontal=false, isRectangle=false]) [3]" classname="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_two_shapes_are_not_overlapping(Shape[startX=3, endX=12, startY=1, endY=12, isHorizontal=false, isRectangle=false]) [4]" classname="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_two_shapes_are_not_overlapping(Shape[startX=1, endX=12, startY=1, endY=12, isHorizontal=false, isRectangle=false]) [5]" classname="draw.helper.ShapeHelper_checkIfShapeIsOverlappingAnyOtherShape_should" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

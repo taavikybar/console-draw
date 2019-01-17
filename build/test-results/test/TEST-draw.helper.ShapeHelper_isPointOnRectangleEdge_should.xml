@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" tests="24" skipped="0" failures="0" errors="0" timestamp="2019-01-17T08:35:31" hostname="pc0164.puhh.local" time="0.016">
+  <properties/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line([1, 1] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.009"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line([4, 2] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line([5, 2] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line([11, 1] -&gt;[] ) [3]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_rectangle_edge([4, 2] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_rectangle_edge([7, 7] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_rectangle_edge([9, 9] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_rectangle_edge([11, 11] -&gt;[] ) [3]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_on_rectangle_edge([1, 1] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_on_rectangle_edge([2, 1] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_on_rectangle_edge([1, 2] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_on_rectangle_edge([3, 3] -&gt;[] ) [3]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.001"/>
+  <testcase name="return_true_if_point_is_not_on_rectangle_edge([2, 2] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_not_on_rectangle_edge([4, 1] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_not_on_rectangle_edge([5, 5] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_not_on_rectangle_edge([1, 4] -&gt;[] ) [3]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line([2, 1] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line([4, 1] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.001"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line([5, 1] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line([10, 1] -&gt;[] ) [3]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_rectangle_edge([3, 5] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_rectangle_edge([5, 1] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_rectangle_edge([9, 10] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_rectangle_edge([10, 10] -&gt;[] ) [3]" classname="draw.helper.ShapeHelper_isPointOnRectangleEdge_should" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

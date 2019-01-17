@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-01-17T08:35:31" hostname="pc0164.puhh.local" time="0.004">
+  <properties/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line_or_edge([2, 1] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line_or_edge([5, 1] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line_or_edge([8, 1] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line_or_edge([10, 1] -&gt;[] ) [3]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line_or_edge([2, 1] -&gt;[] ) [4]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="throw_runtime_exception_if_point_is_on_line_or_edge([3, 3] -&gt;[] ) [5]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line_or_edge([1, 1] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line_or_edge([11, 1] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line_or_edge([5, 2] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line_or_edge([6, 7] -&gt;[] ) [3]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line_or_edge([2, 2] -&gt;[] ) [4]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line_or_edge([5, 5] -&gt;[] ) [5]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <testcase name="not_throw_runtime_exception_if_point_is_not_on_line_or_edge([1, 4] -&gt;[] ) [6]" classname="draw.helper.ShapeHelper_checkIfPointIsOnLineOrEdge_should" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

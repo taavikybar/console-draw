@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="draw.helper.ShapeHelper_isPointInsideRectangle_should" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-01-17T08:35:31" hostname="pc0164.puhh.local" time="0.002">
+  <properties/>
+  <testcase name="return_true_if_point_is_inside_rectangle([3, 3] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointInsideRectangle_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_inside_rectangle([4, 3] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointInsideRectangle_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_inside_rectangle([5, 7] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointInsideRectangle_should" time="0.0"/>
+  <testcase name="return_false_if_point_is_not_inside_rectangle([1, 1] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointInsideRectangle_should" time="0.0"/>
+  <testcase name="return_false_if_point_is_not_inside_rectangle([2, 2] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointInsideRectangle_should" time="0.0"/>
+  <testcase name="return_false_if_point_is_not_inside_rectangle([7, 9] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointInsideRectangle_should" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

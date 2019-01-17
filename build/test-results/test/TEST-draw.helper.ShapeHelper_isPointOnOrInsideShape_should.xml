@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-01-17T08:35:30" hostname="pc0164.puhh.local" time="0.078">
+  <properties/>
+  <testcase name="return_true_if_point_is_on_or_inside_shape([2, 2] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" time="0.074"/>
+  <testcase name="return_true_if_point_is_on_or_inside_shape([2, 4] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_on_or_inside_shape([4, 4] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_on_or_inside_shape([5, 7] -&gt;[] ) [3]" classname="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_on_or_inside_shape([4, 8] -&gt;[] ) [4]" classname="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" time="0.0"/>
+  <testcase name="return_true_if_point_is_on_or_inside_shape([6, 8] -&gt;[] ) [5]" classname="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" time="0.0"/>
+  <testcase name="return_false_if_point_is_not_on_or_inside_shape([1, 1] -&gt;[] ) [0]" classname="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" time="0.0"/>
+  <testcase name="return_false_if_point_is_not_on_or_inside_shape([2, 1] -&gt;[] ) [1]" classname="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" time="0.0"/>
+  <testcase name="return_false_if_point_is_not_on_or_inside_shape([7, 9] -&gt;[] ) [2]" classname="draw.helper.ShapeHelper_isPointOnOrInsideShape_should" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
